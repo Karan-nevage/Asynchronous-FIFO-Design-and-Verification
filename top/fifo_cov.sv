@@ -1,7 +1,7 @@
 // File: /top/fifo_cov.sv
 // Description: Defines the UVM coverage subscriber for collecting fifo functional coverage.
 //              Samples different signals from transactions.
-//              Access coverage in Verdi using: verdi -cov -covdir simv.vdb &
+//              Access coverage in Verdi using: verdi -cov -covdir simv.vdb & (use CTRL + Z if it stuck in terminal)
 // Author: Karankumar Nevage | Email: karanpr9423@gmail.com
 // Version: 0.1
 //---------------------------------------------------------------------------------------------------------------------------------------------------
