@@ -1,8 +1,20 @@
-![FIFO TB ARCHITECTURE](https://github.com/Karan-nevage/Asynchronous-FIFO-Design-and-Verification/blob/main/images/FIFO%20TB%20ARCHITECTURE.png?raw=true)
-
 # 📝 Asynchronous FIFO Design and Verification
+![0.1](https://img.shields.io/badge/Version-0.1-violet)
+![Verilog](https://img.shields.io/badge/HDL-Verilog-blueviolet)
+![SystemVerilog](https://img.shields.io/badge/HDL-SystemVerilog-blueviolet)
+![UVM](https://img.shields.io/badge/Verification-UVM-green)
+![VCS](https://img.shields.io/badge/Simulator-Synopsys%20VCS-red)
+![Verdi](https://img.shields.io/badge/Debugging-Verdi-red)
+![GitHub last commit](https://img.shields.io/github/last-commit/Karan-nevage/Asynchronous-FIFO-Design-and-Verification)
+![GitHub repo size](https://img.shields.io/github/repo-size/Karan-nevage/Asynchronous-FIFO-Design-and-Verification)
+![GitHub contributors](https://img.shields.io/github/contributors/Karan-nevage/Asynchronous-FIFO-Design-and-Verification)
+
 
 This repository contains a comprehensive **Asynchronous FIFO** (First-In, First-Out) design and a complete **Universal Verification Methodology (UVM)** testbench for its functional verification. The project demonstrates a robust, real-world approach to digital design and verification.
+
+## 🧰 Tech Stack & Tools
+
+
 
 The core of this project is an asynchronous FIFO, which is a critical component in many digital systems for buffering data between different clock domains. This design uses a dual-clock approach with separate read and write clocks, making it suitable for applications that require communication between modules operating at different frequencies. The verification environment, built with **SystemVerilog** and **UVM**, follows a layered, reusable, and scalable architecture. It includes all essential UVM components like `uvm_sequencer`, `uvm_driver`, `uvm_monitor`, `uvm_agent`, `uvm_env`, and `uvm_scoreboard`, and a `uvm_test_lib` with various test scenarios to ensure a high level of functional coverage.
 
@@ -20,6 +32,8 @@ The core of this project is an asynchronous FIFO, which is a critical component 
 
 # 📐 Testbench Architecture & File Structure
 The verification environment follows a modular, hierarchical structure as shown in the UVM testbench topology.
+
+![FIFO TB ARCHITECTURE](https://github.com/Karan-nevage/Asynchronous-FIFO-Design-and-Verification/blob/main/images/FIFO%20TB%20ARCHITECTURE.png?raw=true)
 
 | Folder | Contents |
 | :--- | :--- |
